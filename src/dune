@@ -1,0 +1,6 @@
+(executable
+ (public_name mop)
+ (name main)
+ (libraries mop core)
+ (preprocess
+  (pps ppx_jane)))
